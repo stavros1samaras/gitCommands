@@ -7,7 +7,7 @@ git config --global user.email "email@domain.com"
 
 ## 2. If You Already Have a Project in VSCode
 # Initialize Git locally, commit your files, and push to GitHub
-git init
+git init &&
 git add .
 git commit -m "YOUR MESSAGE"
 git remote add origin https://github.com/stavros1samaras/[yourRepository].git
