@@ -24,13 +24,9 @@ git push -u origin main
 ## 3. Link an Existing GitHub Repo with Your Local Repo
 ### If the repo already exists on GitHub
 
-cd myproject
-
 git init
 
 git remote add origin <URL_of_your_Repo>
-
-git pull origin master
 
 git add .
 
