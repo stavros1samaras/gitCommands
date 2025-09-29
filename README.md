@@ -32,6 +32,8 @@ git add .
 
 git commit -m "Local changes"
 
+git branch -M main
+
 git push -u origin main
 
 ## 4. Clone an Existing Repo from GitHub
