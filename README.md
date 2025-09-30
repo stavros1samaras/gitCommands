@@ -95,4 +95,24 @@ git merge temp
 
 git push origin main / git push (αμα ειμαι ακομα στο main)
 
+### διαγραφη temp
+
+#### βλεπω τα branches του github
+git branch -r
+#### βλεπω τα branches του git
+git branch -l
+
+#### διαγραφω local το temp
+git branch -d temp
+
+#### στο remote εχω 2 branches ενω στο local εχω 1 branch
+git branch -r
+git branch -l
+
+#### διαγραφω και το remode branch
+git push origin --delete temp
+
+#### ξαναβλεπω τα branches μου και ολα καλα
+git branch -r
+git branch -l
 
