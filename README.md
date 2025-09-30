@@ -49,3 +49,31 @@ git commit -m "My changes"
 
 git push -u origin main
 
+
+#branches
+
+git branch -M main
+
+####συνδεω γκιτ με γκιτχαμπ αλλιως δεν εχω μπραντσις
+git remote add origin https://github.com/stavros1samaras/gitExample.git
+
+git add .
+
+git commit -m "first commit"
+
+git push -u origin main
+
+git switch -c temp
+
+git add readMe2.txt
+
+git commit -m "readMe2 added"
+
+git push -u origin temp
+
+git switch main
+
+git log --oneline
+
+
+
