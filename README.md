@@ -52,8 +52,6 @@ git push -u origin main
 
 # Βranches
 
-git branch -M main
-
 #### συνδεω γκιτ με γκιτχαμπ αλλιως δεν εχω μπραντσις
 git remote add origin https://github.com/stavros1samaras/gitExample.git
 
@@ -61,7 +59,11 @@ git add .
 
 git commit -m "first commit"
 
+#### κανω push -u γιατι ειναι η πρωτη φορα που κανω push
+
 git push -u origin main
+
+#### αλλαζω branch και το δημιουργω ταυτοχρωνα
 
 git switch -c temp
 
@@ -69,10 +71,16 @@ git add readMe2.txt
 
 git commit -m "readMe2 added"
 
+#### ξανα κανω push -u γιατι ειναι η πρωτη φορα που κανω push στο temp branch
+
 git push -u origin temp
+
+#### εδω βλεπω τα 2 branches μου main και temp
+git branch
 
 git switch main
 
+#### αυτο ειναι το ιστορικο του branch
 git log --oneline
 
 
