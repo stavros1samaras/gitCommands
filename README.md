@@ -52,7 +52,11 @@ git push -u origin main
 
 # Βranches
 
+#### ονομαζω το κυριο branch se main σε περιπτωση που λεγεται master
+git branch -M main
+
 #### συνδεω γκιτ με γκιτχαμπ αλλιως δεν εχω μπραντσις
+
 git remote add origin https://github.com/stavros1samaras/gitExample.git
 
 git add .
@@ -83,5 +87,12 @@ git switch main
 #### αυτο ειναι το ιστορικο του branch
 git log --oneline
 
+#### ειμαι στο main και θελω να το κανω merge με το temp
+
+git merge temp
+
+#### το git ενημερωθηκε αλλα πρεπει να ενημερωθει και το github
+
+git push origin main / git push (αμα ειμαι ακομα στο main)
 
 
