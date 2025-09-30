@@ -128,3 +128,20 @@ git push origin --delete temp
 git branch -r
 git branch -l
 ```
+
+# git clone git pull
+
+#### βρισκω ενα ρεπο που θελω να κανω clone
+#### παιρνω το https του
+```bash
+git clone "https://github.com/stavros1samaras/-TypeScript-cheatsheet-.git"
+```
+
+#### τσεκαρω το branch που βρισκομαι και αμα θελω δημιουργω καινουργιο
+#### κανω αλλαγες στο remote repo
+#### ζηταω τις αλλαγες που εγιναν στο remote repo
+```bash
+git git pull origin main ή git pull --rebase ή git pull
+```
+
+
