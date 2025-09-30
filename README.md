@@ -50,11 +50,11 @@ git commit -m "My changes"
 git push -u origin main
 
 
-#branches
+# Βranches
 
 git branch -M main
 
-####συνδεω γκιτ με γκιτχαμπ αλλιως δεν εχω μπραντσις
+#### συνδεω γκιτ με γκιτχαμπ αλλιως δεν εχω μπραντσις
 git remote add origin https://github.com/stavros1samaras/gitExample.git
 
 git add .
