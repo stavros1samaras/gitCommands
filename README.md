@@ -70,7 +70,7 @@ git commit -m "first commit"
 git push -u origin main
 ```
 
-#### αλλαζω branch και το δημιουργω ταυτοχρωνα
+#### αλλαζω branch και το δημιουργω ταυτοχρoνα
 ```bash
 git switch -c temp
 git add readMe2.txt
