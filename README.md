@@ -20,7 +20,8 @@ git config --global user.email "email@domain.com"
 
 ```bash
 git init
-git add .
+git add .      ({review each change})
+git add -p
 git commit -m "YOUR MESSAGE"
 git remote add origin https://github.com/stavros1samaras/[yourRepository].git
 git branch -M main
