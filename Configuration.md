@@ -1,4 +1,4 @@
-## 1. Git Configuration
+## Git Configuration
 
 ### Set your user name and email (only once per computer)
 
