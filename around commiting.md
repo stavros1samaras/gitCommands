@@ -1,4 +1,4 @@
-### git log [<options>]
+### git log [options]
 Shows the commit logs.
 
 | `git log` | Shows commit history (SHA, author, date, message). | `git log` |
