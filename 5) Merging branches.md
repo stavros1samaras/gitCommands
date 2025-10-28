@@ -27,8 +27,9 @@ Fast-forward
  login.js | 12 ++++++++++++
  1 file changed, 12 insertions(+)
 ```
+<img width="368" height="276" alt="εικόνα" src="https://github.com/user-attachments/assets/45e8f3e1-f3b4-49df-93ca-8f8af26dd7ea" />
 
-### Merging using the recursive strategy (default non–fast-forward merge)
+### Merging using merge commit (default non–fast-forward merge, called recursive strategy)
 Pull the latest changes before merging
 ```bash
 git pull origin main
@@ -48,3 +49,5 @@ Merge made by the 'recursive' strategy.
  ui.js | 8 ++++++++
  1 file changed, 8 insertions(+)
 ```
+<img width="368" height="276" alt="εικόνα" src="https://github.com/user-attachments/assets/492ca0a3-8e52-4870-8216-b92b446a1b2f" />
+
