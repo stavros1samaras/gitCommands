@@ -1,15 +1,4 @@
-### git diff [options]
-Shows the differences between commits, branches, or the working directory and the staging area.
 
-| `git diff` | Shows unstaged changes (differences between working directory and staging area). | `git diff` |
-| ----------- | -------------------------------- | ---- |
-| `git diff --staged` | Shows differences between the staging area and the last commit (staged changes). | `git diff --staged` |
-| `git diff [branch1] [branch2]` | Compares differences between two branches. | `git diff main develop` |
-| `git diff [commit1] [commit2]` | Shows changes between two commits. | `git diff a1b2c3d e4f5g6h` |
-| `git diff --name-only` | Lists only filenames that have changed. | `git diff --name-only` |
-| `git diff --stat` | Displays a summary of changed files and line counts. | `git diff --stat` |
-
----
 
 ### git stash [options]
 Temporarily saves (stashes) uncommitted changes so you can work on something else without committing.
