@@ -51,3 +51,9 @@ Merge made by the 'recursive' strategy.
 ```
 <img width="368" height="276" alt="εικόνα" src="https://github.com/user-attachments/assets/492ca0a3-8e52-4870-8216-b92b446a1b2f" />
 
+# Conflict resolution methodology
+
+1. Open up the file(s) with merge conflicts
+2. Edit the file(s) to remove the conflicts. Decide which branch's content you want to keep in each conflict. Or keep the content from both.
+3. Remove the conflict "markers" in the document
+4. Add your changes and then make a commit!
